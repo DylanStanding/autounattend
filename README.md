@@ -4,6 +4,36 @@
 
 This repository contains an Autounattend.xml script designed for unattended installations of Windows. The script automates the setup process, providing configuration details for various installation phases, including Windows PE, specialize, and OOBE.
 
+Prerequisites
+
+Before you begin, ensure you have the following:
+
+    A Windows 10 ISO file.
+    A USB drive with sufficient space (at least 8GB is recommended).
+    Rufus or another tool for creating bootable USB drives.
+
+Creating Your Own Windows 10 USB
+
+Follow these steps to create a Windows 10 USB drive with the unattended installation setup:
+
+    Download the Windows 10 ISO:
+        Obtain a Windows 10 ISO file from the official Microsoft website.
+
+    Create a Bootable USB Drive:
+        Use Rufus or another tool to create a bootable USB drive from the Windows 10 ISO file.
+
+    Copy Autounattend.xml and Autorun.inf:
+        Copy the provided Autounattend.xml and Autorun.inf files from this repository to the root directory of the USB drive.
+
+    Customize Autounattend.xml (Optional):
+        If needed, open Autounattend.xml in a text editor and customize settings such as the product key or user information.
+
+    Eject and Reinsert the USB Drive:
+        Eject the USB drive safely and then reinsert it into the target system.
+
+    Install Windows 10:
+        Boot the target system from the USB drive to start the unattended installation process.
+
 ## Usage
 
 1. **Customization:**
